@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack">
+
+    <TextView
+        android:id="@+id/item_main_video_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_gravity="top"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        tools:text="死亡搁浅-小岛秀夫" />
+
+    <SurfaceView
+        android:id="@+id/item_main_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="44dp"
+        android:background="@color/colorBlack" />
+
+    <ImageView
+        android:id="@+id/item_main_cover_picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="44dp"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+</FrameLayout>
